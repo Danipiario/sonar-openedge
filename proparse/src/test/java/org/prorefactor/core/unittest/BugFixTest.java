@@ -398,6 +398,11 @@ public class BugFixTest {
   }
 
   @Test
+  public void testOnEvent() throws ANTLRException {
+    genericTest("onEvent.p");
+  }
+
+  @Test
   public void testGetDbClient() throws ANTLRException {
     genericTest("getdbclient.p");
   }
